@@ -1,0 +1,167 @@
+
+
+body {
+    font-family: Noto Sans KR, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 70px;
+    padding: 0;
+    background-color: #FFFFFF; 
+  }
+
+  @media (min-width: 768px) {
+    body {
+        margin: 40px auto; /* 상하 여백은 그대로 두고 좌우 여백만 자동 조정 */
+        max-width: 1200px; /* 웹페이지 최대 폭 지정 */
+    }
+}
+  
+  header {
+    background-color: #ffffff;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #fdfdfd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #001d6d;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  .nav-item:hover .submenu,
+    .nav-item.active .submenu {
+      display: block;
+    }
+
+  li:hover .submenu {
+    display: block;
+  }
+
+  .container {
+    display: flex;
+    padding: 20px;
+    background-color: #A2D8EE;
+    border-radius: 20px;
+  }
+
+  .aside {
+    background-color: #ebc8ce;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .aside-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .aside-list li {
+    margin-bottom: 10px;
+  }
+
+  .aside-list li a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #82cafa;
+  }
+
+  .aside-list li a:hover {
+    background-color: #555;
+  }
+
+  .menu-item {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* 추가된 스타일 */
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu a {
+    display: block;
+    padding: 5px;
+}
+
+  .main {
+    position: relative;
+  }
+
+  .main:hover .submenu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .main {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  
+  section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    color: #555;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+  }

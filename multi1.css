@@ -1,0 +1,119 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #333;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .logo-top {
+    margin-bottom: 10px;
+  }
+  
+  .login-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+  .box {
+    width: 200px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 200px;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(105, 164, 231, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .box.a {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.b {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.c {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.d {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.e {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.f {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.g {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+  
+  .box.h {
+    background-color: rgba(105, 164, 231, 0.8);
+  }
+
+  .footer-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }

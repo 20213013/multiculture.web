@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>다움</title>
+    <link rel="stylesheet" href="multi2.css">
+    <style>
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover {
+            color: #609be9;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            overflow-x: hidden;
+        }
+        
+        img {
+            max-width: 100%;
+            max-height: 100%; 
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+    </style>
+      <a href="C:\Users\HOME\Desktop\multi1.html">
+        <img src="C:\Users\HOME\Desktop\multicultural\로고1.png" alt="상단 로고 이미지" class="logo-bottom" style="max-width: 100px;">
+      </a>
+   
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<body>
+
+    <script>
+        $(document).ready(function() {
+            // 한국 생활 안내 메뉴에 대한 이벤트 핸들러
+            $(".menu-information").hover(function() {
+                // 해당 메뉴에 대한 하위 항목을 펼침
+                $(".sub-menu-information").stop().slideDown();
+            }, function() {
+                // 마우스가 해당 메뉴를 벗어나면 하위 항목 숨김
+                $(".sub-menu-information").stop().slideUp();
+            });
+        
+            // 자료실 메뉴에 대한 이벤트 핸들러
+            $(".menu-resource").hover(function() {
+                // 해당 메뉴에 대한 하위 항목을 펼침
+                $(".sub-menu-resource").stop().slideDown();
+            }, function() {
+                // 마우스가 해당 메뉴를 벗어나면 하위 항목 숨김
+                $(".sub-menu-resource").stop().slideUp();
+            });
+        
+            // 이벤트/행사 메뉴에 대한 이벤트 핸들러
+            $(".menu-event").hover(function() {
+                // 해당 메뉴에 대한 하위 항목을 펼침
+                $(".sub-menu-event").stop().slideDown();
+            }, function() {
+                // 마우스가 해당 메뉴를 벗어나면 하위 항목 숨김
+                $(".sub-menu-event").stop().slideUp();
+            });
+        });
+        </script>
+<body>
+    <header>
+        <img src="C:\Users\HOME\Desktop\multicultural\다움1.png" alt="상단 로고 이미지" class="logo-top">
+    </header>
+
+    <div class="container">
+        <div class="aside">
+            
+            <a href = "C:\Users\HOME\Desktop\multi2.html">
+                다문화 가정 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi3.html">
+                <br>한국생활안내 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi4.html">
+                <br>언어 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi5.html">
+                <br>지원 센터 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi6.html">
+                <br>다문화 소식 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi7.html">
+                <br>이벤트/행사 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi8.html">
+                <br>취업/근로 <br></a>
+            <a href = "C:\Users\HOME\Desktop\multi9.html">
+                <br>굿즈 <br></a>
+        </div>
+  
+        <div class="main">
+            <nav>
+                <ul>
+                    <div class="menu-item">
+                        <a href="C:\Users\HOME\Desktop\multi2.html">다문화 가정</a>
+                        <div class="menu-item">
+                            <a href="C:\Users\HOME\Desktop\multi3.html" class="menu-information">한국 생활 안내</a>
+                            <div class="sub-menu sub-menu-information">
+                                <a href="C:\Users\HOME\Desktop\multi3.html">한국 생활 안내</a>
+                                <a href="C:\Users\HOME\Desktop\multi4.html">언어</a>
+                                <a href="C:\Users\HOME\Desktop\multi8.html">취업/근로</a>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a href="" class="menu-resource">자료실</a>
+                            <div class="sub-menu sub-menu-resource">
+                                <a href="C:\Users\HOME\Desktop\multi6.html">소개</a>
+                                <a href="C:\Users\HOME\Desktop\multi5.html">지원 센터</a>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <a href="C:\Users\HOME\Desktop\multi7.html" class="menu-event">이벤트/행사</a>
+                            <div class="sub-menu sub-menu-event">
+                                <a href="C:\Users\HOME\Desktop\multi7.html">이벤트/행사</a>
+                                <a href="C:\Users\HOME\Desktop\multi9.html">굿즈</a>
+                            </div>
+                </ul>
+            </nav>
+
+            <section>
+                <h2>이벤트/행사</h2>
+                <img src="C:\Users\HOME\Desktop\포스터2.jpg" alt="포스터1">
+                <img src="C:\Users\HOME\Desktop\포스터3.jpg" alt="포스터2">
+                <p><br></p>
+
+
+            </section>
+
+
+
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 multiculturalportal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
